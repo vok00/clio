@@ -1,0 +1,39 @@
+* {box-sizing: border-box;margin: 0;padding: 0;}
+html {
+    font-size: 62.5%;
+}
+body {
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+}
+ul,ol,dl,dt,dd {
+    list-style:none;
+}
+hr {
+    display: block;
+    height:1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+select, td {
+    vertical-align: middle;
+}
+.clearfix {
+    display: block;content:"";clear:both;
+}
+.hidden {
+    display: none;
+}
+body,button,input,select {
+    font-family: NotoSans,'Nanum Gothic','나눔 고딕','맑은 고딕','돋움',sans-serif;
+}
+h1 {
+    font-size: 1.6rem;
+}
+img {
+    max-width:100%;
+    height:auto;
+    vertical-align: top;
+}
